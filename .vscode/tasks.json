@@ -6,6 +6,8 @@
             "command": "C:\\mingw64\\bin\\g++.exe",
             "args": [
                 "-std=c++17",
+                "-Werror",
+                "-Wunused-parameter",
                 "-g",
                 "${file}",
                 "-o",

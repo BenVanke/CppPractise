@@ -11,6 +11,7 @@ void throw_exception1()
 }
 
 /* 加了noexcept 修饰之后, 本来是抛出异常的, 现在直接异常---程序终止 */
+/* 使用 noexcept 修饰后如果抛出异常，编译器会使用 std::terminate() 来立即终止程序运行。*/
 void throw_exception2() noexcept
 {
     throw true;
