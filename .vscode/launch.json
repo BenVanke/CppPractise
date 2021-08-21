@@ -8,7 +8,7 @@
             "name": "g++.exe - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:\\liqi\\C++_Prictice\\exe\\${fileBasenameNoExtension}.exe",            
+            "program": "C:\\liqi\\GitHub\\CppPractise2\\exe\\${fileBasenameNoExtension}.exe",            
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

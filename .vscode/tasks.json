@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "C:\\liqi\\C++_Prictice\\exe\\${fileBasenameNoExtension}.exe"                
+                "C:\\liqi\\GitHub\\CppPractise2\\exe\\${fileBasenameNoExtension}.exe"                
             ],
             "options": {
                 "cwd": "${fileDirname}"
