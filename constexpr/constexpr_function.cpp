@@ -19,6 +19,13 @@ using namespace std;
  *     也就是说，这些值都在编译期能确定了就行。
  */
 
+/* constexpr 标记函数的时候，必须要有一个 return 分支可能返回结果编译期可确定 */
+//constexpr int RandPlus(int x) 
+int RandPlus(int x) 
+{ 
+    return (rand() % 5) + x;
+}
+
 constexpr int foo(int i) 
 {
     return i + 5;

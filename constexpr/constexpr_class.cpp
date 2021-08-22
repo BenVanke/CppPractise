@@ -2,10 +2,12 @@
 #include <iostream>
 #include <array>
 
+/* 参考[转载] https://www.cnblogs.com/wangxiaobao/p/5966394.html */
+
 using namespace std;
 
 /*
- * 3. constexpr class（字面值常量类）
+ * constexpr class（字面值常量类）
  * built-in类型是字面值常量，但是有时需要自定义类型也作为字面值常量，这时候就需需要将constexpr修饰构造函数。
  * 字面值常量类必须至少提供一个constexpr构造函数。
  */
@@ -46,4 +48,3 @@ int main()
 
     return 0;   
 }
-
