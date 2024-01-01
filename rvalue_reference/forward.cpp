@@ -11,6 +11,7 @@ void func(uint32_t &lvalue)
 void func(uint32_t &&rvalue) 
 {
     cout << "func rvalue = " << rvalue << endl;    
+    cout << "func rvalue = " << rvalue << endl;
 }
 
 template<typename T>
